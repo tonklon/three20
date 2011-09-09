@@ -58,6 +58,8 @@
 		BEF199220F818E720010D36E /* StyledTextTableTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF1991F0F818E720010D36E /* StyledTextTableTestController.m */; };
 		BEF199230F818E720010D36E /* StyledTextTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF199210F818E720010D36E /* StyledTextTestController.m */; };
 		BEF6EC370F280CB300CF4096 /* ScrollViewTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF6EC360F280CB300CF4096 /* ScrollViewTestController.m */; };
+		E1B7F4ED1419E3B800B34A43 /* TableEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7F4EC1419E3B800B34A43 /* TableEditingController.m */; };
+		E1B7F52B1419E68F00B34A43 /* EditableListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B7F52A1419E68F00B34A43 /* EditableListDataSource.m */; };
 		E46662FE127F91A4001A0F20 /* TableWithBannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46662FD127F91A4001A0F20 /* TableWithBannerController.m */; };
 		E4D1D1D61306D2670090AE0C /* TableDragRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D1D1D51306D2670090AE0C /* TableDragRefreshController.m */; };
 /* End PBXBuildFile section */
@@ -297,6 +299,10 @@
 		BEF199210F818E720010D36E /* StyledTextTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledTextTestController.m; sourceTree = "<group>"; };
 		BEF6EC350F280CB300CF4096 /* ScrollViewTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewTestController.h; sourceTree = "<group>"; };
 		BEF6EC360F280CB300CF4096 /* ScrollViewTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestController.m; sourceTree = "<group>"; };
+		E1B7F4EB1419E3B800B34A43 /* TableEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableEditingController.h; sourceTree = "<group>"; };
+		E1B7F4EC1419E3B800B34A43 /* TableEditingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableEditingController.m; sourceTree = "<group>"; };
+		E1B7F5291419E68F00B34A43 /* EditableListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableListDataSource.h; sourceTree = "<group>"; };
+		E1B7F52A1419E68F00B34A43 /* EditableListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableListDataSource.m; sourceTree = "<group>"; };
 		E46662FC127F91A4001A0F20 /* TableWithBannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWithBannerController.h; sourceTree = "<group>"; };
 		E46662FD127F91A4001A0F20 /* TableWithBannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableWithBannerController.m; sourceTree = "<group>"; };
 		E4D1D1D41306D2670090AE0C /* TableDragRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDragRefreshController.h; sourceTree = "<group>"; };
@@ -533,6 +539,17 @@
 			name = Launcher;
 			sourceTree = "<group>";
 		};
+		E1B7F4EA1419E39B00B34A43 /* Table Reordering */ = {
+			isa = PBXGroup;
+			children = (
+				E1B7F4EB1419E3B800B34A43 /* TableEditingController.h */,
+				E1B7F4EC1419E3B800B34A43 /* TableEditingController.m */,
+				E1B7F5291419E68F00B34A43 /* EditableListDataSource.h */,
+				E1B7F52A1419E68F00B34A43 /* EditableListDataSource.m */,
+			);
+			name = "Table Reordering";
+			sourceTree = "<group>";
+		};
 		E46662F9127F916C001A0F20 /* Table with Banner */ = {
 			isa = PBXGroup;
 			children = (
@@ -731,6 +748,7 @@
 				E46662F9127F916C001A0F20 /* Table with Banner */,
 				6E002564116A6CF900D1F0CB /* Table With Shadow */,
 				E4D1D1C41306D12D0090AE0C /* Table Drag Refresh */,
+				E1B7F4EA1419E39B00B34A43 /* Table Reordering */,
 			);
 			name = Tables;
 			sourceTree = "<group>";
@@ -1014,6 +1032,8 @@
 				E4D1D1D61306D2670090AE0C /* TableDragRefreshController.m in Sources */,
 				7000C4C0130CCAE3006D7ADE /* DownloadTestModel.m in Sources */,
 				7000C4C1130CCAE3006D7ADE /* DownloadProgressTestController.m in Sources */,
+				E1B7F4ED1419E3B800B34A43 /* TableEditingController.m in Sources */,
+				E1B7F52B1419E68F00B34A43 /* EditableListDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
