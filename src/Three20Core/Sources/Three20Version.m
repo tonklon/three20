@@ -16,8 +16,4 @@
 
 #import "Three20Core/Three20Version.h"
 
-/*! \mainpage Three20 API Documentation
- *
- * Generated from Three20 Release <a href="http://three20.info/roadmap/1.0.9">1.0.9</a>.
- */
-NSString* const Three20Version = @"1.0.9";
+NSString* const Three20Version = @"1.0.12";
